@@ -155,17 +155,7 @@ def print_doc():
         return
 
 
-    # os.remove("information.txt")
-    # if not os.path.exists("information.txt"):
-    #     open("information.txt", 'w').close()
-#     with open(r"information.txt", "w") as file:
-#             file.write(f"""{lines[0]}
-# {lines[1]}
-# {lines[2]}
-# {lines[3]}
-# {lines[4]}
-# {lines[5]}
-# {lines[6]}""")
+  
 
 
     cased_lastname = p.lastname(lname, Case.GENITIVE, Gender.MALE)
